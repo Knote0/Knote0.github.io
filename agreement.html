@@ -2,46 +2,86 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>用户协议</title>
+    <title>inFin User Agreement</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
         }
         .container {
             width: 80%;
-            margin: 0 auto;
+            margin: auto;
+            overflow: hidden;
         }
-        h1, h2, p {
-            color: #333;
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
         }
-        h1 {
-            text-align: center;
-            padding: 20px 0;
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
         }
-        h2 {
-            padding: 10px 0;
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>用户协议</h1>
-        <h2>本用户协议生效日期：2024年02月05日</h2>
-        <p>服务条款的确认和接纳inFin（下称本应用）的所有权和运作权归独立开发者ZMBC Studio（下称”我”或“我们”） 所有。使用inFin产品及服务将视为您同意以下使用条款。</p>
-        <h2>1. 仅供个人使用</h2>
-        <p>本应用仅供用户个人用于非商业用途。如果要本应用以及本应用有关或派生的任何资料、服务或软件，则必须得到我们的允许。</p>
-        <h2>2. 知识产权</h2>
-        <p>用户承认本应用开发者ZMBC Studio拥有对本应用所有权利，包括但不限于所有知识产权。“知识产权"指在专利法、版权法、商业机密法、商标法、反不正当竞争法等法中规定的所有权利以及其中的所有应用、更新、扩展和恢复，无论在现在还是以后在全球范围内实施和生效。用户同意不会修改、改编、翻译本应用、创作本应用的派生作品、通过反编译、反向工程、反汇编或其它方式从本应用得到源代码。用户同意不会删除、掩盖或更改ZMBC Studio或任何第三方的版权声明、商标或其它所有权声明。</p>
-        <h2>3. 用户隐私制度</h2>
-        <p>尊重用户个人隐私是ZMBC Studio的一项基本政策。要了解本应用数据保护措施的具体信息，请阅读隐私权政策，地址是：https:/ /mdiary.ninefrost.com/ doc/privacy_policy.html挂隐私政策的地址</p>
-        <h2>4. 其他</h2>
-        <p>在移动网络下使用本应用可能会需要支付网路流量费用，该费用有用户所属运营商收取，本应用对此不承担任何责任。</p>
-        <p>本应用的源代码版权、修改权、所有权、使用权均归本应用开发者所有，其他人不得进行任何形式的破解、侵权等行为。</p>
-        <p>本声明未涉及的问题请参见国家相关法律法规；如果本声明与国家法律法律相冲突，以国家法律法规为准。</p>
-    </div>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>inFin User Agreement</h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">User Agreement</h1>
+                <p>The effective date of this User Agreement: 05 February 2024 Acknowledgement and Acceptance of Terms of Service inFin (hereinafter referred to as the Application) is owned and operated by ZMBC Studio, an independent developer (hereinafter referred to as "I" or "we" or "us"). By using inFin products and services, you agree to the following terms of use.</p>
+                <h2>1. Personal Use Only</h2>
+                <p>The Application is intended for the User's personal, non-commercial use only. Permission must be obtained from us to use the Application and any materials, services or software related to or derived from the Application.</p>
+                <h2>2. Intellectual Property Rights</h2>
+                <p>The User acknowledges that ZMBC Studio, the developer of the Application, owns all rights to the Application, including but not limited to all Intellectual Property Rights. "Intellectual Property Rights" means all rights provided for in the Patent Law, Copyright Law, Trade Secrets Law, Trademark Law, Unfair Competition Law, etc., and all applications, updates, extensions and restorations thereof, whether now or hereafter enforced and in force throughout the world. The User agrees not to modify, adapt, translate, create derivative works of, decompile, reverse engineer, disassemble, or otherwise derive source code from the Application. The User agrees that it will not remove, obscure or alter any copyright notices, trademarks or other proprietary notices of ZMBC Studio or any third party.</p>
+                <h2>3. User Privacy Policy</h2>
+                <p>It is a fundamental policy of ZMBC Studio to respect the privacy of its users. For specific information about the data protection measures of this application, please read the privacy policy at: <a href="https://knote0.github.io/privacy.html">https://knote0.github.io/privacy.html</a></p>
+                <h2>4. Other</h2>
+                <ul>
+                    <li>Use of this application on mobile networks may be subject to network traffic charges, which are levied by the user's operator and for which this application is not responsible.</li>
+                    <li>The copyright, modification, ownership and use of the source code of this application belongs to the developer of this application, and no one else is allowed to carry out any kind of cracking or infringement.</li>
+                    <li>For issues not covered in this statement, please refer to relevant national laws and regulations; if this statement conflicts with national laws and regulations, national laws and regulations shall prevail.</li>
+                </ul>
+            </article>
+        </div>
+    </section>
     <br><br><br><br><br>
 </body>
 </html>
